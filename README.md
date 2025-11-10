@@ -33,10 +33,10 @@ The analysis highlights how my training structure, exercise selection, and work 
 ![Dashboard - Bench Press (Barbell)](https://github.com/TonyDeDev/personal-trainning-data-analysis/blob/c0b7f5daa39ab7fee77b19bd54e33d31572273be/dashboard/dashboardBenchPress.png)
 
 ### 2. Power BI Dashboard – Squat (Barbell)
-![Dashboard - Lat Pulldown (Cable)](https://github.com/TonyDeDev/personal-trainning-data-analysis/blob/c0b7f5daa39ab7fee77b19bd54e33d31572273be/dashboard/dashboardPullDown.png)
+![Dashboard -  Squat (Barbell)](https://github.com/TonyDeDev/personal-trainning-data-analysis/blob/c0b7f5daa39ab7fee77b19bd54e33d31572273be/dashboard/dashboardSquat.png)
 
 ### 3. Power BI Dashboard – Lat Pulldown (Cable)
-![Dashboard - Lat Pulldown (Cable)](https://github.com/TonyDeDev/personal-trainning-data-analysis/blob/c0b7f5daa39ab7fee77b19bd54e33d31572273be/dashboard/dashboardSquat.png)
+![Dashboard - Lat Pulldown (Cable)](https://github.com/TonyDeDev/personal-trainning-data-analysis/blob/ba41cd588532f4d369deaa261497c78de5750813/dashboard/dashboardPullDown.png)
 
 ---
 
