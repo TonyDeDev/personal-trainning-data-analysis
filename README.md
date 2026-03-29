@@ -1,66 +1,89 @@
 # Gym Progress & Training Analysis Dashboard
 
-This project explores my **personal gym progress** through data tracking, focusing on trends in training **frequency, work rate, and performance** over multiple years (2022–2024).  
-The analysis highlights how my training structure, exercise selection, and work rate evolved over time — using both **Python (Jupyter Notebook)** and **Power BI** for visualization.
+This project explores my **personal gym progress** through data tracking, focusing on trends in training **frequency, work rate, and strength (1RM)** over multiple years (2022–2026).  
+The analysis highlights how my training structure evolved over time, especially before and after a major gap in recorded data — using both **Python (Jupyter Notebook)** and **Power BI** for visualization.
 
 ---
 
 ## Project Overview
 
-- Data analysis of multi-year gym logs (2022–2024)
+- Data analysis of multi-year gym logs (2022–2026)
 - Comparison of training frequency vs. work rate (intensity)
 - Visualization of lift-specific progress (e.g., Bench Press, Lat Pulldown)
-- Correlation between training consistency and strength development
-- Integration of **Power BI dashboards** for visual exploration
+- Analysis of lagged relationship between training volume and strength (1RM)
+- Integration of **Power BI dashboards** for interactive exploration
 
 ---
 
 ## Key Insights
 
-- In **2022**, training frequency was high, but progress was limited — possibly due to less structured programming and form development.
-- From **2023 onward**, frequency decreased but **correlation with work rate strengthened**, reflecting improved technique and training focus.
-- Despite fewer recorded weeks in later years, overall trends show **steady improvement in lift efficiency** and intensity management.
+### Data Gap (2023–2024)
+There is a significant gap between mid-2023 and late-2024, making trends during this period unreliable.  
+The gap varies across muscle groups, suggesting inconsistent tracking rather than a complete stop in training.
 
 ---
 
-## Sample Visualizations
+### Training Structure Change (2025)
 
+The most important shift occurs in early 2025:
 
-### 1. Power BI Dashboard - Overview
-![Dashboard - Overview](https://github.com/TonyDeDev/personal-trainning-data-analysis/blob/c0b7f5daa39ab7fee77b19bd54e33d31572273be/dashboard/dashboardOverView.png)
+- **Training frequency nearly doubled** (from ~1x/week to ~2x/week)
+- **Work rate per session remained relatively constant**
 
-### 2. Power BI Dashboard – Bench Press (Barbell)
-![Dashboard - Bench Press (Barbell)](https://github.com/TonyDeDev/personal-trainning-data-analysis/blob/c0b7f5daa39ab7fee77b19bd54e33d31572273be/dashboard/dashboardBenchPress.png)
+This indicates that I was not training harder, but **training more often**, leading to an increase in **total weekly volume**.
 
-### 2. Power BI Dashboard – Squat (Barbell)
-![Dashboard -  Squat (Barbell)](https://github.com/TonyDeDev/personal-trainning-data-analysis/blob/c0b7f5daa39ab7fee77b19bd54e33d31572273be/dashboard/dashboardSquat.png)
+---
 
-### 3. Power BI Dashboard – Lat Pulldown (Cable)
-![Dashboard - Lat Pulldown (Cable)](https://github.com/TonyDeDev/personal-trainning-data-analysis/blob/ba41cd588532f4d369deaa261497c78de5750813/dashboard/dashboardPullDown.png)
+### Frequency vs Strength (1RM)
+
+Strength gains do not appear immediately after the frequency increase.
+
+- There is a **3–5 month lag** between increased frequency and noticeable 1RM improvement
+- This pattern is especially clear in:
+  - Chest  
+  - Biceps  
+  - Hamstrings  
+
+This suggests that **higher frequency (volume), not intensity per session**, is the primary driver of strength gains over time.
+
+---
+
+### Inconsistencies & Data Limitations
+
+Some muscle groups show less reliable trends:
+
+- **Shoulders and triceps** → noisy 1RM due to exercise variability and estimation limits  
+- **Lats** → temporary drop likely due to detraining after the gap  
+- **Calves** → inflated values due to high-rep 1RM estimation issues  
+
+---
+
+## Core Insight
+
+Overall, my data tells a consistent story:
+
+After a break, I returned to training and **increased frequency without increasing intensity**.  
+Over several months, this higher training volume led to **measurable strength gains**, with a delayed but consistent response in 1RM.
+
+---
+
+## Limitation
+
+Due to the missing data, it is difficult to fully determine whether **frequency or work rate has a stronger causal relationship with 1RM**.
+
+However, for major muscle groups that I train consistently, the data suggests that **strength gains correlate more strongly with increases in training frequency (volume)** than with per-session work rate.
 
 ---
 
 ## Technologies & Tools Used
 
-- **Python - Pandas** for data cleaning and early analysis  
-- **Jupyter Notebook** for interactive exploration and documentation  
-- **Power BI** for dashboard creation and visualization  
-- **GitHub** for project version control and sharing  
-
----
-
-## Conclusion
-
-This analysis demonstrates how **structured progression, improved form, and intensity management** can outweigh pure training frequency.  
-While 2022 showed weak correlation between work rate and frequency, data from 2023–2024 revealed a stronger alignment — emphasizing the value of **quality over quantity**.  
-
-Even with gaps in data (due to at-home training phases), the insights provide a clear direction:  
-**Continue building intensity and consistency for optimal progress.**
+- **Python (Pandas)** for data cleaning and analysis  
+- **Jupyter Notebook** for exploration and documentation  
+- **Power BI** for dashboard visualization  
+- **GitHub** for version control and project sharing  
 
 ---
 
 ## 🔗 Interactive Dashboard (UNB Access Only)
 
-[👉 View the Interactive Power BI Report (requires UNB login)](https://app.powerbi.com/reportEmbed?reportId=3fccdda0-732f-4a02-bc35-f5cb79126cec&autoAuth=true&ctid=244e6ed2-339a-47f3-b95c-e45351c198b7)
-
----
+[👉 View the Interactive Power BI Report](https://app.powerbi.com/links/Le4LLCc6Zk?ctid=244e6ed2-339a-47f3-b95c-e45351c198b7&pbi_source=linkShare)
