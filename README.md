@@ -11,7 +11,7 @@ The analysis highlights how my training structure evolved over time, especially 
 - Comparison of training frequency vs. work rate (intensity)
 - Visualization of lift-specific progress (e.g., Bench Press, Lat Pulldown)
 - Analysis of lagged relationship between training volume and strength (1RM)
-- Integration of **Power BI dashboards** for interactive exploration
+- Integration of **Power BI dashboards** for interactive exploration and also design a custom muscle anatomy button through Sypnotic Design.
 
 ---
 
